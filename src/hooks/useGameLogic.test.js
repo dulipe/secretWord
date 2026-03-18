@@ -1,7 +1,6 @@
 import { renderHook } from "@testing-library/react";
 import { useGameLogic } from "./useGameLogic";
 
-// 👇 mock das palavras (igual fizemos antes)
 const mockWords = {
   5: { word: "APPLE", definitions: ["A fruit"] },
 };
