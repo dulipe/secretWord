@@ -11,7 +11,7 @@ const Instructions = () => {
             Clique em uma letra do teclado virtual para verificar se ela está presente na palavra secreta.<br /> Em seguida, analise a cor de fundo da letra escolhida:
             <ul className="mt-2 space-y-2 list-none">
               <li className="flex items-start gap-2">
-                <span className="w-4 h-4 rounded bg-gray-200 shrink-0 mt-0.5" />
+                <span className="w-4 h-4 rounded bg-white shrink-0 mt-0.5" />
                 <span>Se for branca, significa que a letra escolhida não está presente na palavra secreta.</span>
               </li>
               <li className="flex items-start gap-2">

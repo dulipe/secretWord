@@ -23,7 +23,7 @@ const Keyboard = ({ onKeyPress, keyStatuses, visibleKeys = [] }: KeyboardProps) 
     if (keyStatuses[letter] === "present")
       return `${base} bg-yellow-500 text-white`;
 
-    return `${base} bg-gray-300 text-black hover:bg-gray-400 active:bg-gray-500`;
+    return `${base} bg-white text-black hover:bg-gray-400 active:bg-gray-500`;
   };
 
   const getPlaceholderStyle = (): string => `${keySize} invisible`;

@@ -14,7 +14,7 @@ const WordGrid = ({ guesses, status }: WordGridProps) => {
         return (
           <div key={rowIndex} className="flex gap-2">
             {row.map((cell, colIndex) => {
-              let bg = "bg-gray-200 text-gray-800";
+              let bg = "bg-white text-gray-800";
 
               if (cell.status === "correct") bg = "bg-green-500 text-white";
               else if (cell.status === "present") bg = "bg-yellow-500 text-white";
