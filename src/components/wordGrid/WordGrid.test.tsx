@@ -19,29 +19,29 @@ describe("WordGrid", () => {
   it("applies the correct class to the correct letters", () => {
     const guesses = [
       [
-        { letter: "A", status: "correct" },
-        { letter: "P", status: "present" },
+        { letter: "A", status: "correct" as const },
+        { letter: "P", status: "present" as const },
       ],
     ];
-  
+
     render(<WordGrid guesses={guesses} status="playing" />);
-  
+
     const letterA = screen.getByText("A");
     const letterP = screen.getByText("P");
-  
+
     expect(letterA.className).toMatch("bg-green-500");
     expect(letterP.className).toMatch("bg-yellow-500");
   });
 
   it("applies finished game style", () => {
     const guesses = [
-      [{ letter: "A", status: "correct" }],
+      [{ letter: "A", status: "correct" as const }],
     ];
-  
+
     render(<WordGrid guesses={guesses} status="solved" />);
-  
+
     const letterA = screen.getByText("A");
-  
+
     expect(letterA.className).toMatch("opacity-50");
   });
 });

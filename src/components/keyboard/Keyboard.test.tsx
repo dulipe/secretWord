@@ -28,9 +28,9 @@ describe("Keyboard", () => {
         keyStatuses={{ A: "correct" }}
       />
     );
-  
+
     const buttonA = screen.getByRole("button", { name: "A" });
-  
+
     expect(buttonA.className).toMatch("bg-green-600");
   });
 });

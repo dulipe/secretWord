@@ -1,4 +1,12 @@
-const Modal = ({ isOpen, title, word, definitions, onClose }) => {
+type ModalProps = {
+  isOpen: boolean;
+  title: string;
+  word: string;
+  definitions: string[] | null;
+  onClose: () => void;
+};
+
+const Modal = ({ isOpen, title, word, definitions, onClose }: ModalProps) => {
   if (!isOpen) return null;
 
   return (

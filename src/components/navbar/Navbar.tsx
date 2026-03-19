@@ -1,6 +1,15 @@
-import React from "react";
+import { GameOption } from "@/domain/gameConfig";
 
-const Navbar = ({ onSelect, selected, statusWords, options }) => {
+type WordStatus = "solved" | "unsolved" | "playing";
+
+type NavbarProps = {
+  onSelect: (value: number) => void;
+  selected: number;
+  statusWords: Record<number, WordStatus>;
+  options: GameOption[];
+};
+
+const Navbar = ({ onSelect, selected, statusWords, options }: NavbarProps) => {
   return (
     <nav className="flex justify-center mx-auto p-4 sm:p-6 mt-6 mb-8 max-w-full w-full px-4">
       <ul className="flex flex-wrap justify-center gap-4 sm:gap-3 list-none w-full">
@@ -8,8 +17,7 @@ const Navbar = ({ onSelect, selected, statusWords, options }) => {
           const isActive = selected === value;
           const status = statusWords[value];
 
-          const isFinished =
-            status === "solved" || status === "unsolved";
+          const isFinished = status === "solved" || status === "unsolved";
 
           const statusIcon =
             status === "solved" ? "✔️" : status === "unsolved" ? "❌" : "";
