@@ -1,14 +1,14 @@
 import { GameOption } from "@/domain/gameConfig";
 import { WordStatus } from "@/domain/types";
 
-type NavbarProps = {
+type GameMenuProps = {
   onSelect: (value: number) => void;
   selected: number;
   statusWords: Record<number, WordStatus>;
   options: GameOption[];
 };
 
-const Navbar = ({ onSelect, selected, statusWords, options }: NavbarProps) => {
+const GameMenu = ({ onSelect, selected, statusWords, options }: GameMenuProps) => {
   return (
     <nav className="flex justify-center mx-auto p-4 sm:p-6 mt-6 mb-8 max-w-full w-full px-4">
       <ul className="flex flex-wrap justify-center gap-4 sm:gap-3 list-none w-full">
@@ -52,4 +52,4 @@ const Navbar = ({ onSelect, selected, statusWords, options }: NavbarProps) => {
   );
 };
 
-export default Navbar;
+export default GameMenu;

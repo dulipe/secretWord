@@ -163,7 +163,7 @@ describe("App", () => {
     expect(screen.getByText("APPLE")).toBeInTheDocument();
   });
 
-  it("calls handleSelect when interacting with Navbar", async () => {
+  it("calls handleSelect when interacting with Game Menu ", async () => {
     vi.doMock("@/hooks/useWords", () => ({
       useWords: () => ({ words: ["APPLE"] }),
     }));
