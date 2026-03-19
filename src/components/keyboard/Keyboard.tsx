@@ -1,6 +1,6 @@
 import { KEYBOARD_LAYOUT } from "@/domain/gameConfig";
 
-type KeyStatus = "correct" | "present" | "absent";
+type KeyStatus = "correct" | "present" | "absent" | null;
 
 type KeyboardProps = {
   onKeyPress: (letter: string) => void;

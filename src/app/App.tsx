@@ -7,8 +7,9 @@ import { useWords } from "@/hooks/useWords";
 import { useGameLogic } from "@/hooks/useGameLogic";
 
 import { GAME_OPTIONS } from "@/domain/gameConfig";
+import { JSX } from "react";
 
-function App() {
+function App(): JSX.Element {
   const { words } = useWords(GAME_OPTIONS);
   const game = useGameLogic(words, GAME_OPTIONS);
 
