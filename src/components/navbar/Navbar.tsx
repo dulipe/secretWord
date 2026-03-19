@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-      <header className="w-full px-6 py-4 border-b-3 border-b-white flex items-center justify-between relative bg-neutral-900">
+      <header className="w-full px-6 py-4 border-b-3 border-white flex items-center justify-between relative bg-neutral-900">
         <div className="flex flex-col">
           <span className="text-sm font-semibold text-white">Filipe Santos</span>
           <span className="text-xs text-white">Full Stack Developer</span>

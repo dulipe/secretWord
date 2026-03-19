@@ -4,6 +4,7 @@ import WordGrid from "@/components/wordGrid/WordGrid";
 import Keyboard from "@/components/keyboard/Keyboard";
 import Modal from "@/components/modal/Modal";
 import Instructions from "@/components/instructions/Instructions";
+import Footer from "@/components/footer/Footer";
 
 import { useWords } from "@/hooks/useWords";
 import { useGameLogic } from "@/hooks/useGameLogic";
@@ -23,7 +24,7 @@ function App(): JSX.Element {
     <div className="flex flex-col min-h-screen">
       <Navbar />
   
-      <div className="flex flex-col lg:flex-row flex-1 bg-gray-50">
+      <div className="flex flex-col lg:flex-row flex-1 bg-gray-300">
         <main className="flex flex-col items-center w-full lg:w-1/2">
           <GameMenu
             options={GAME_OPTIONS}
@@ -58,6 +59,7 @@ function App(): JSX.Element {
           <Instructions />
         </aside>
       </div>
+      <Footer />
     </div>
   );
 }
