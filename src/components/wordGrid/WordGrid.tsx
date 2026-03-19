@@ -1,11 +1,4 @@
-type CellStatus = "correct" | "present" | "absent" | null;
-
-type Cell = {
-  letter: string;
-  status: CellStatus;
-};
-
-type WordStatus = "solved" | "unsolved" | "playing";
+import { Cell, WordStatus } from "@/domain/types";
 
 type WordGridProps = {
   guesses: Cell[][];

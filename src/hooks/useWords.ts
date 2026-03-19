@@ -1,11 +1,7 @@
 import { useState, useEffect } from "react";
 import wordsData from "@/data/words.json";
 import { GameOption } from "@/domain/gameConfig";
-
-type WordEntry = {
-  word: string;
-  definitions: string[];
-};
+import { WordEntry } from "@/domain/types";
 
 export function useWords(options: GameOption[]) {
   const [words, setWords] = useState<Record<number, WordEntry>>({});

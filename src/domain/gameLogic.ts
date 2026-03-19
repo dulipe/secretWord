@@ -1,19 +1,9 @@
 import { isLastAttempt } from "@/domain/gameUtils";
-
-type Cell = {
-  letter: string;
-  status: "correct" | "present" | "absent" | null;
-};
-
-type ModalMessage = {
-  title: string;
-  word: string;
-  definitions: string[];
-};
+import { Cell, ModalState } from "@/domain/types";
 
 type GameRoundResult =
-  | { status: "win"; modal: ModalMessage }
-  | { status: "lose"; modal: ModalMessage }
+  | { status: "win"; modal: ModalState }
+  | { status: "lose"; modal: ModalState }
   | { status: "continue"; modal: null };
 
 type ResolveGameRoundParams = {
@@ -59,7 +49,7 @@ export function buildModalMessage({
   isWin,
   secretWord,
   definitions,
-}: BuildModalMessageParams): ModalMessage {
+}: BuildModalMessageParams): ModalState {
   return {
     title: isWin ? "Acertou! ✔️" : "Errou! ❌",
     word: secretWord,

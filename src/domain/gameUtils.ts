@@ -1,11 +1,5 @@
 import { MAX_ATTEMPTS } from "@/domain/gameConfig";
-
-type CellStatus = "correct" | "present" | "absent" | null;
-
-type Cell = {
-  letter: string;
-  status: CellStatus;
-};
+import { Cell, CellStatus } from "@/domain/types";
 
 export function initializeGuesses(wordLength: number): Cell[][] {
   return Array.from({ length: MAX_ATTEMPTS }, () =>

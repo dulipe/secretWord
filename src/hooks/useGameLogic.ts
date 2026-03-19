@@ -8,34 +8,9 @@ import {
 
 import { resolveGameRound } from "@/domain/gameLogic";
 import { ALPHABET, GameOption } from "@/domain/gameConfig";
-
-type CellStatus = "correct" | "present" | "absent" | null;
-
-type Cell = {
-  letter: string;
-  status: CellStatus;
-};
-
-type WordStatus = "solved" | "unsolved" | "playing";
+import { Cell, CellStatus, WordStatus, ModalState, SavedGame, WordEntry } from "@/domain/types";
 
 type KeyStatuses = Record<string, CellStatus>;
-
-type ModalState = {
-  title: string;
-  word: string;
-  definitions: string[];
-};
-
-type SavedGame = {
-  guesses: Cell[][];
-  keyStatuses: KeyStatuses;
-  visibleKeys: string[];
-};
-
-type WordEntry = {
-  word: string;
-  definitions: string[];
-};
 
 export function useGameLogic(
   words: Record<number, WordEntry>,

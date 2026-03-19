@@ -1,6 +1,5 @@
 import { GameOption } from "@/domain/gameConfig";
-
-type WordStatus = "solved" | "unsolved" | "playing";
+import { WordStatus } from "@/domain/types";
 
 type NavbarProps = {
   onSelect: (value: number) => void;

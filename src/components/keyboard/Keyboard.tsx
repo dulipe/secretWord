@@ -1,10 +1,9 @@
 import { KEYBOARD_LAYOUT } from "@/domain/gameConfig";
-
-type KeyStatus = "correct" | "present" | "absent" | null;
+import { CellStatus } from "@/domain/types";
 
 type KeyboardProps = {
   onKeyPress: (letter: string) => void;
-  keyStatuses: Record<string, KeyStatus>;
+  keyStatuses: Record<string, CellStatus>;
   visibleKeys?: string[];
 };
 
