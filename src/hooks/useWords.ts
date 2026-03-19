@@ -1,11 +1,17 @@
 import { useState, useEffect } from "react";
 import wordsData from "@/data/words.json";
+import { GameOption } from "@/domain/gameConfig";
 
-export function useWords(options) {
-  const [words, setWords] = useState({});
+type WordEntry = {
+  word: string;
+  definitions: string[];
+};
+
+export function useWords(options: GameOption[]) {
+  const [words, setWords] = useState<Record<number, WordEntry>>({});
 
   useEffect(() => {
-    const grouped = {};
+    const grouped: Record<number, WordEntry> = {};
 
     options.forEach((opt) => {
       const filtered = wordsData.filter(
@@ -17,7 +23,7 @@ export function useWords(options) {
           filtered[Math.floor(Math.random() * filtered.length)];
 
         grouped[opt.value] = {
-          word: random.word.toUpperCase(), 
+          word: random.word.toUpperCase(),
           definitions: random.definitions,
         };
       }

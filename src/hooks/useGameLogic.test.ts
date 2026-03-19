@@ -1,11 +1,12 @@
 import { renderHook } from "@testing-library/react";
 import { useGameLogic } from "./useGameLogic";
+import { GameOption } from "@/domain/gameConfig";
 
-const mockWords = {
+const mockWords: Record<number, { word: string; definitions: string[] }> = {
   5: { word: "APPLE", definitions: ["A fruit"] },
 };
 
-const options = [{ label: "5 Letters", value: 5 }];
+const options: GameOption[] = [{ label: "5 Letters", value: 5 }];
 
 describe("useGameLogic", () => {
   it("initializes the game correctly", () => {

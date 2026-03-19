@@ -7,17 +7,48 @@ import {
 } from "@/domain/gameUtils";
 
 import { resolveGameRound } from "@/domain/gameLogic";
-import { ALPHABET } from "@/domain/gameConfig";
+import { ALPHABET, GameOption } from "@/domain/gameConfig";
 
-export function useGameLogic(words, options) {
-  const [selected, setSelected] = useState(options[0].value);
-  const [guesses, setGuesses] = useState([]);
-  const [keyStatuses, setKeyStatuses] = useState({});
-  const [visibleKeys, setVisibleKeys] = useState(ALPHABET);
-  const [statusWords, setStatusWords] = useState({});
-  const [savedGames, setSavedGames] = useState({});
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modal, setModal] = useState({
+type CellStatus = "correct" | "present" | "absent" | null;
+
+type Cell = {
+  letter: string;
+  status: CellStatus;
+};
+
+type WordStatus = "solved" | "unsolved" | "playing";
+
+type KeyStatuses = Record<string, CellStatus>;
+
+type ModalState = {
+  title: string;
+  word: string;
+  definitions: string[];
+};
+
+type SavedGame = {
+  guesses: Cell[][];
+  keyStatuses: KeyStatuses;
+  visibleKeys: string[];
+};
+
+type WordEntry = {
+  word: string;
+  definitions: string[];
+};
+
+export function useGameLogic(
+  words: Record<number, WordEntry>,
+  options: GameOption[]
+) {
+  const [selected, setSelected] = useState<number>(options[0].value);
+  const [guesses, setGuesses] = useState<Cell[][]>([]);
+  const [keyStatuses, setKeyStatuses] = useState<KeyStatuses>({});
+  const [visibleKeys, setVisibleKeys] = useState<string[]>(ALPHABET);
+  const [statusWords, setStatusWords] = useState<Record<number, WordStatus>>({});
+  const [savedGames, setSavedGames] = useState<Record<number, SavedGame>>({});
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [modal, setModal] = useState<ModalState>({
     title: "",
     word: "",
     definitions: [],
@@ -45,7 +76,7 @@ export function useGameLogic(words, options) {
     }));
   };
 
-  const handleKeyPress = (letter) => {
+  const handleKeyPress = (letter: string) => {
     const newGuesses = [...guesses];
 
     const rowIndex = guesses.findIndex((row) =>
@@ -67,7 +98,7 @@ export function useGameLogic(words, options) {
       const current = prev[letter];
 
       if (current === "correct") return prev;
-      if (current === "present" && status === "") return prev;
+      if (current === "present" && status === null) return prev;
 
       return { ...prev, [letter]: status };
     });
@@ -106,7 +137,7 @@ export function useGameLogic(words, options) {
     }
   };
 
-  const handleSelect = (value) => {
+  const handleSelect = (value: number) => {
     saveCurrentGame();
     setSelected(value);
   };
