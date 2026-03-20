@@ -1,5 +1,6 @@
 import { GameOption } from "@/domain/gameConfig";
 import { WordStatus } from "@/domain/types";
+import { useLanguage } from "@/context/LanguageContext";
 
 type GameMenuProps = {
   onSelect: (value: number) => void;
@@ -9,12 +10,16 @@ type GameMenuProps = {
 };
 
 const GameMenu = ({ onSelect, selected, statusWords, options }: GameMenuProps) => {
+
+  const { language } = useLanguage();
+
   return (
     <nav className="flex justify-center mx-auto p-4 sm:p-6 mt-6 mb-8 max-w-full w-full px-4">
       <ul className="flex flex-wrap justify-center gap-4 sm:gap-3 list-none w-full">
-        {options.map(({ label, value }) => {
+        {options.map(({ value }) => {
           const isActive = selected === value;
           const status = statusWords[value];
+          const label = language === "pt" ? `${value} Letras` : `${value} Letters`;
 
           const isFinished = status === "solved" || status === "unsolved";
 
@@ -27,10 +32,9 @@ const GameMenu = ({ onSelect, selected, statusWords, options }: GameMenuProps) =
                 onClick={() => onSelect(value)}
                 className={`w-full flex justify-center items-center whitespace-nowrap px-4 py-2 text-base font-semibold rounded-md border-2 cursor-pointer transition-all duration-200
                   
-                  ${
-                    isFinished
-                      ? "bg-gray-200 text-gray-500 border-transparent cursor-not-allowed"
-                      : isActive
+                  ${isFinished
+                    ? "bg-gray-200 text-gray-500 border-transparent cursor-not-allowed"
+                    : isActive
                       ? "bg-gray-300 border-gray-400"
                       : "bg-white hover:bg-gray-200 border-transparent"
                   }

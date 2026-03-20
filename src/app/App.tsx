@@ -14,6 +14,8 @@ import { useGameLogic } from "@/hooks/useGameLogic";
 import { GAME_OPTIONS } from "@/domain/gameConfig";
 import { JSX, useState } from "react";
 
+import { LanguageContext } from "@/context/LanguageContext";
+
 type Language = "pt" | "en";
 
 function App(): JSX.Element {
@@ -38,51 +40,53 @@ function App(): JSX.Element {
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
+    <LanguageContext.Provider value={{ language }}>
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
 
-      <div className="flex flex-col lg:flex-row flex-1 bg-gray-300">
-        <main className="flex flex-col items-center w-full lg:w-1/2">
-          <GameMenu
-            options={GAME_OPTIONS}
-            selected={game.selected}
-            statusWords={game.statusWords}
-            onSelect={game.handleSelect}
-          />
-
-          <WordGrid
-            guesses={game.guesses}
-            status={game.statusWords[game.selected]}
-          />
-
-          {!isGameFinished ? (
-            <Keyboard
-              onKeyPress={game.handleKeyPress}
-              keyStatuses={game.keyStatuses}
-              visibleKeys={game.visibleKeys}
+        <div className="flex flex-col lg:flex-row flex-1 bg-gray-300">
+          <main className="flex flex-col items-center w-full lg:w-1/2">
+            <GameMenu
+              options={GAME_OPTIONS}
+              selected={game.selected}
+              statusWords={game.statusWords}
+              onSelect={game.handleSelect}
             />
-          ) : (
-            <WordResult
+
+            <WordGrid
+              guesses={game.guesses}
+              status={game.statusWords[game.selected]}
+            />
+
+            {!isGameFinished ? (
+              <Keyboard
+                onKeyPress={game.handleKeyPress}
+                keyStatuses={game.keyStatuses}
+                visibleKeys={game.visibleKeys}
+              />
+            ) : (
+              <WordResult
+                word={game.modal.word}
+                definitions={game.modal.definitions}
+              />
+            )}
+
+            <Modal
+              isOpen={game.isModalOpen}
+              title={game.modal.title}
               word={game.modal.word}
               definitions={game.modal.definitions}
+              onClose={game.handleClose}
             />
-          )}
+          </main>
 
-          <Modal
-            isOpen={game.isModalOpen}
-            title={game.modal.title}
-            word={game.modal.word}
-            definitions={game.modal.definitions}
-            onClose={game.handleClose}
-          />
-        </main>
-
-        <aside className="w-full lg:w-1/2 px-8 py-10 flex justify-center pointer-events-none">
-          <Instructions />
-        </aside>
+          <aside className="w-full lg:w-1/2 px-8 py-10 flex justify-center pointer-events-none">
+            <Instructions />
+          </aside>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </LanguageContext.Provider>
   );
 }
 

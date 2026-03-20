@@ -11,12 +11,14 @@ type ResolveGameRoundParams = {
   secretWord: string;
   guesses: Cell[][];
   definitions: string[];
+  language: "pt" | "en";
 };
 
 type BuildModalMessageParams = {
   isWin: boolean;
   secretWord: string;
   definitions: string[];
+  language: "pt" | "en";
 };
 
 export function resolveGameRound({
@@ -24,34 +26,37 @@ export function resolveGameRound({
   secretWord,
   guesses,
   definitions,
+  language,
 }: ResolveGameRoundParams): GameRoundResult {
   if (formedWord === secretWord) {
     return {
       status: "win",
-      modal: buildModalMessage({ isWin: true, secretWord, definitions }),
+      modal: buildModalMessage({ isWin: true, secretWord, definitions, language }),
     };
   }
 
   if (isLastAttempt(guesses)) {
     return {
       status: "lose",
-      modal: buildModalMessage({ isWin: false, secretWord, definitions }),
+      modal: buildModalMessage({ isWin: false, secretWord, definitions, language }),
     };
   }
 
-  return {
-    status: "continue",
-    modal: null,
-  };
+  return { status: "continue", modal: null };
 }
 
 export function buildModalMessage({
   isWin,
   secretWord,
   definitions,
+  language,
 }: BuildModalMessageParams): ModalState {
+  const title = isWin
+    ? language === "pt" ? "Acertou! ✔️" : "You got it! ✔️"
+    : language === "pt" ? "Errou! ❌" : "Game over! ❌";
+
   return {
-    title: isWin ? "Acertou! ✔️" : "Errou! ❌",
+    title,
     word: secretWord,
     definitions,
   };

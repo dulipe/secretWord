@@ -1,3 +1,5 @@
+import { useLanguage } from "@/context/LanguageContext";
+
 type ModalProps = {
   isOpen: boolean;
   title: string;
@@ -8,6 +10,8 @@ type ModalProps = {
 
 const Modal = ({ isOpen, title, word, definitions, onClose }: ModalProps) => {
   if (!isOpen) return null;
+
+  const { language } = useLanguage();
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
@@ -43,7 +47,7 @@ const Modal = ({ isOpen, title, word, definitions, onClose }: ModalProps) => {
           onClick={onClose}
           className="w-full py-3 text-base font-bold rounded-xl cursor-pointer transition-all duration-200 bg-gray-200 hover:bg-gray-300 border border-transparent hover:border-gray-400"
         >
-          Fechar
+          {language === "pt" ? "Fechar" : "Close"}
         </button>
       </div>
     </div>
