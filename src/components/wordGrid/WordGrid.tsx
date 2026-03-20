@@ -26,7 +26,7 @@ const WordGrid = ({ guesses, status }: WordGridProps) => {
               return (
                 <div
                   key={colIndex}
-                  className={`w-10 h-10 flex items-center justify-center font-bold rounded ${bg} ${finishedClass}`}
+                  className={`w-10 h-10 flex items-center justify-center font-bold rounded select-none ${bg} ${finishedClass}`}
                 >
                   {cell.letter}
                 </div>

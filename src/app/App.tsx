@@ -55,7 +55,7 @@ function App(): JSX.Element {
           />
         </main>
   
-        <aside className="w-full lg:w-1/2 px-8 py-10 flex justify-center">
+        <aside className="w-full lg:w-1/2 px-8 py-10 flex justify-center pointer-events-none">
           <Instructions />
         </aside>
       </div>

@@ -33,7 +33,7 @@ const Keyboard = ({ onKeyPress, keyStatuses, visibleKeys = [] }: KeyboardProps) 
       {KEYBOARD_LAYOUT.map((row, rowIndex) => (
         <div
           key={rowIndex}
-          className="flex justify-center gap-[4px] sm:gap-[6px]"
+          className="flex justify-center gap-[4px] sm:gap-[6px] select-none"
         >
           {row.map((letter) =>
             visibleKeys.includes(letter) ? (

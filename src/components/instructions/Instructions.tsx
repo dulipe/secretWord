@@ -1,7 +1,7 @@
 const Instructions = () => {
     return (
       <section className="mt-8 mb-10 w-full px-6 text-x1 text-black">
-        <h2 className="text-x1 font-bold text-gray-800 mb-3">
+        <h2 className="text-x1 font-bold text-black mb-3">
           Como jogar
         </h2>
   
