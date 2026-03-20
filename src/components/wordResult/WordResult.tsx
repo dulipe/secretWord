@@ -11,7 +11,7 @@ const WordResult = ({ word, definitions }: WordResultProps) => {
             </p>
 
             {definitions && (
-                <ul className="text-sm text-black list-disc ml-10 space-y-1 max-h-[160px]  w-full">
+                <ul className="text-sm text-black list-disc pl-5 space-y-1 max-h-48 overflow-y-auto w-full">
                     {definitions.flatMap((def, index) =>
                         def.split("\n").map((part, partIndex) => (
                             <li key={`${index}-${partIndex}`}>

@@ -1,16 +1,25 @@
 import { useState, useEffect } from "react";
-import wordsData from "@/data/words.json";
+import wordsDataPt from "@/data/words-pt.json";
+import wordsDataEn from "@/data/words-en.json";
 import { GameOption } from "@/domain/gameConfig";
 import { WordEntry } from "@/domain/types";
 
-export function useWords(options: GameOption[]) {
+type Language = "pt" | "en";
+
+const wordsData: Record<Language, WordEntry[]> = {
+  pt: wordsDataPt as WordEntry[],
+  en: wordsDataEn as WordEntry[],
+};
+
+export function useWords(options: GameOption[], language: Language) {
   const [words, setWords] = useState<Record<number, WordEntry>>({});
 
   useEffect(() => {
     const grouped: Record<number, WordEntry> = {};
+    const data = wordsData[language];
 
     options.forEach((opt) => {
-      const filtered = wordsData.filter(
+      const filtered = data.filter(
         (w) => w.word.length === opt.value
       );
 
@@ -26,7 +35,7 @@ export function useWords(options: GameOption[]) {
     });
 
     setWords(grouped);
-  }, [options]);
+  }, [options, language]);
 
   return { words };
 }

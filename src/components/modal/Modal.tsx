@@ -23,7 +23,7 @@ const Modal = ({ isOpen, title, word, definitions, onClose }: ModalProps) => {
           </p>
 
           {definitions && (
-            <ul className="text-sm text-gray-600 list-disc ml-4 space-y-1 max-h-[160px]">
+            <ul className="text-sm text-black list-disc pl-5 space-y-1 max-h-48 overflow-y-auto overflow-x-hidden  w-full">
               {definitions && (
                 <ul className="text-sm text-black list-disc ml-4 space-y-1 max-h-[160px]  w-full">
                   {definitions.flatMap((def, index) =>

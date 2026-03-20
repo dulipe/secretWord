@@ -20,7 +20,7 @@ function App(): JSX.Element {
 
   const [language, setLanguage] = useState<Language | null>(null);
 
-  const { words } = useWords(GAME_OPTIONS);
+  const { words } = useWords(GAME_OPTIONS, language ?? "pt");
   const game = useGameLogic(words, GAME_OPTIONS);
 
   const isGameFinished = ["solved", "unsolved"].includes(

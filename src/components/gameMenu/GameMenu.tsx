@@ -29,7 +29,7 @@ const GameMenu = ({ onSelect, selected, statusWords, options }: GameMenuProps) =
                   
                   ${
                     isFinished
-                      ? "bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed"
+                      ? "bg-gray-200 text-gray-500 border-transparent cursor-not-allowed"
                       : isActive
                       ? "bg-gray-300 border-gray-400"
                       : "bg-white hover:bg-gray-200 border-transparent"
