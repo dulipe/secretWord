@@ -193,12 +193,6 @@
       ]
     },
     {
-      "word": "acuse",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "acuso",
       "definitions": [
         "O mesmo que _acusação_.\nDesigna a declaração que, no jogo da bisca, o parceiro faz, de ter reunido, entre as suas cartas, duas figuras do mesmo valor.\nTambém há _acuso_ no jogo dos Três-setes."
@@ -227,12 +221,6 @@
       "definitions": [
         "Emplasto, que adere à pele.",
         "Que adere."
-      ]
-    },
-    {
-      "word": "adestro",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -535,7 +523,9 @@
     {
       "word": "ambos",
       "definitions": [
-        "[object Object]"
+        "Um e outro; que se apresentam ao mesmo tempo, em conjunto; juntos: no final da aula, ambos, aluno e professor, foram à diretoria.",
+        "Tanto a este quanto aquele; apresentados em conjunto: ambos os filhos são inteligentes.",
+        "Os dois; refere-se aos pares, duas coisas ou duas pessoas: pai e filho, ambos vivem na mesma casa."
       ]
     },
     {
@@ -662,12 +652,6 @@
       "definitions": [
         "Pequeno gancho, terminado em farpa, para segurar a isca, com que se pesca.",
         "Ardil, engano."
-      ]
-    },
-    {
-      "word": "aonde",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -814,15 +798,9 @@
       ]
     },
     {
-      "word": "arqueio",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "arquejo",
       "definitions": [
-        "Acto de [[arquejar:1]]."
+        "Ato de arquejar."
       ]
     },
     {
@@ -924,12 +902,6 @@
       "definitions": [
         "Causa principal de uma coisa.\nInventor.\nAquele que escreveu obra literária ou científica.\nFundador.\nAquele que intenta demanda judicial.\nAquele, de que procede ou nasce alguém ou alguma coisa.",
         "O valador mais experiente, encarregado de dirigir os outros."
-      ]
-    },
-    {
-      "word": "avento",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -1166,12 +1138,6 @@
       ]
     },
     {
-      "word": "beijado",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "beijar",
       "definitions": [
         "Dar beijo em; oscular.\nTocar de leve.\nInclinar-se até tocar em."
@@ -1243,7 +1209,8 @@
     {
       "word": "belisco",
       "definitions": [
-        "[object Object]"
+        "Aperto que se faz com a mão na pele de outra pessoa, especialmente com a ponta dos dedos e marcando com a unha, para causar dor; beliscadura, beliscão.",
+        "Porção pequena de comida, geralmente servida entre uma refeição e outra; petisco."
       ]
     },
     {
@@ -1269,24 +1236,6 @@
       "definitions": [
         "Furúnculo de mau carácter.",
         "Bruxa; feiticeira."
-      ]
-    },
-    {
-      "word": "bento",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
-      "word": "bento",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
-      "word": "benzido",
-      "definitions": [
-        "O mesmo que [[bento:1]]."
       ]
     },
     {
@@ -1614,7 +1563,6 @@
         "Peça de ferro, vertical, na boleia dos carros, e à qual se prendem, posteriormente, os tirantes.",
         "Bandeirola do milho, em flor.",
         "Pequeno embrulho de linho, que se embebe em substância alimentícia, para que a chupem as crianças de peito, se o leite lhes falta.",
-        "[object Object]",
         "_Boneca de milho_, a espiga do milho, ainda com os estames ligados aos grãos.",
         "Peças de madeira, que no convés servem de apoio às antenas sobrecelentes avante do mastro grande.\n(Cp. _boneco_)"
       ]
@@ -1638,12 +1586,6 @@
         "Extremidade.\nOrla; beira.\nFímbria: _borda de um vestido_.\nMargem; praia: _à borda do Tejo_.",
         "_Dar borda_, inclinar-se muito a embarcação, com risco.",
         "Espécie de clava, armada de puas."
-      ]
-    },
-    {
-      "word": "borde",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -1747,17 +1689,7 @@
       "definitions": [
         "Planta leguminosa, de que se tira o pau-brasil.",
         "Cor encarnada, com que as senhoras se enfeitavam.",
-        "Diz-se de um pau vermelho empregado em tinturaria.",
-        "[object Object]"
-      ]
-    },
-    {
-      "word": "brasil",
-      "definitions": [
-        "Planta leguminosa, de que se tira o pau-brasil.",
-        "Cor encarnada, com que as senhoras se enfeitavam.",
-        "Diz-se de um pau vermelho empregado em tinturaria.",
-        "[object Object]"
+        "Diz-se de um pau vermelho empregado em tinturaria."
       ]
     },
     {
@@ -2042,8 +1974,7 @@
       "word": "bulir",
       "definitions": [
         "Mexer-se com pouca força, agitar-se levemente, palpitar.",
-        "Tocar, mover levemente.",
-        "[object Object]"
+        "Tocar, mover levemente."
       ]
     },
     {
@@ -2251,7 +2182,6 @@
     {
       "word": "calhe",
       "definitions": [
-        "[object Object]",
         "Cale de madeira, que, na azenha, leva a água às penas do rodízio."
       ]
     },
@@ -2333,7 +2263,6 @@
         "O fundo de um quadro.",
         "Aso, ensejo.",
         "Espaço do escudo, em que se pintam ou lavram as peças.\nFundo liso de qualquer estofo, de que resaem os matizes.",
-        "[object Object]",
         "_Campo santo_, o mesmo que _cemitério_."
       ]
     },
@@ -2365,7 +2294,7 @@
     {
       "word": "cantor",
       "definitions": [
-        "[object Object]"
+        "Pessoa que canta com frequência ou tem como profissão o canto."
       ]
     },
     {
@@ -2770,7 +2699,9 @@
     {
       "word": "chanfro",
       "definitions": [
-        "[object Object]"
+        "O que foi cortado de maneira oblíqua, na diagonal ou em bisel.",
+        "Corte diagonal na borda de alguma coisa com o intuito de formar ângulos; a borda que foi assim formada.",
+        "Cavidade localizada no punho de uma baioneta, tipo de arma pontiaguda, por meio da qual o cano da espingarda pode ser encaixado."
       ]
     },
     {
@@ -2888,7 +2819,8 @@
     {
       "word": "chiado",
       "definitions": [
-        "[object Object]"
+        "Ato ou efeito de chiar.",
+        "Som anormal produzido à altura dos alvéolos pulmonares ou dos brônquios por um líquido patológico."
       ]
     },
     {
@@ -3087,7 +3019,6 @@
       "word": "cifra",
       "definitions": [
         "O mesmo que _zero_.\nExplicação ou chave de uma escrita enigmática ou secreta.\nSinais convencionais de uma escrita, que não deve ser compreendida por todos.\nMonograma de um nome.\nCálculo total.",
-        "[object Object]",
         "Ânus.",
         "Contabilidade."
       ]
@@ -3447,7 +3378,8 @@
     {
       "word": "comentar",
       "definitions": [
-        "[object Object]"
+        "Fazer ficar compreensível, claro; compreender algo através de uma argumentação escrita ou falada: ela comentou os trajes de gala.",
+        "Desenvolver ou realizar um comentário e/ou análise critica: a professora comentou o trabalho de seus alunos."
       ]
     },
     {
@@ -3672,8 +3604,6 @@
       "definitions": [
         "Acto e efeito de contar.\nCálculo.\nEstado de créditos e débitos ou de receita e despesa.\nObjecto ou soma de uma dívida.\nReputação: _tenho-o na conta de honrado_.\nAtenção.\nCuidado, cautela.\nGasto.\nJustificação.\nImputação.\nSuposição.\nEstimação.\nResponsabilidade: _proceder por conta alheia_.\nInformação: _dar conta de sucessos_.",
         "Unidade de cereais, correspondente a 40 alqueires.\nPequena bola furada, que serve para rosários, colares, etc.",
-        "[object Object]",
-        "[object Object]",
         "_Levar a sua conta_, apanhar sova. Cf. Camilo, _Perfil_, 256.",
         "_Tomar conta_, encarregar-se: _tomou conta do pequeno_.",
         "_Dar conta_, ser responsável, ser obrigado a apresentar: _hás de me dar conta do relógio que te emprestei_."
@@ -3701,7 +3631,6 @@
     {
       "word": "contra",
       "definitions": [
-        "[object Object]",
         "Contrariamente: _uns votaram a favor, outros votaram contra_.",
         "Objecção, réplica.\nObstáculo: _isso tem um contra_."
       ]
@@ -3888,7 +3817,6 @@
       "definitions": [
         "Costela.\nDeclive, encosta.\nPraia, litoral; região à beira-mar: _a costa de Caparica_.",
         "Margem do rio.",
-        "[object Object]",
         "_De costa arriba_, o mesmo que _de costa acima_.",
         "Dorso; parte posterior do tronco humano; lombo.",
         "Ausência.\nParte posterior de vários objectos; reverso."
@@ -4024,8 +3952,7 @@
     {
       "word": "credo",
       "definitions": [
-        "Oração christan, que, em latim, começa pela palavra _credo_, (creio).\nProfissão de fé.\nRegra.\nPrograma de um partido.",
-        "[object Object]"
+        "Oração christan, que, em latim, começa pela palavra _credo_, (creio).\nProfissão de fé.\nRegra.\nPrograma de um partido."
       ]
     },
     {
@@ -4081,9 +4008,7 @@
       "word": "crime",
       "definitions": [
         "Transgressão de um preceito legal.\nActo, que a lei declara punível: _o assassínio é crime punível no Código Penal_.\nActo digno de repreensão ou de castigo.",
-        "Criminal: _processo crime_.",
-        "[object Object]",
-        "[object Object]"
+        "Criminal: _processo crime_."
       ]
     },
     {
@@ -4219,12 +4144,6 @@
       ]
     },
     {
-      "word": "cuido",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "culminar",
       "definitions": [
         "Chegar ao ponto mais elevado, ao ponto culminante."
@@ -4240,12 +4159,6 @@
       "word": "culpado",
       "definitions": [
         "Aquele que é culpado; o criminoso."
-      ]
-    },
-    {
-      "word": "culpando",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -4340,7 +4253,6 @@
       "definitions": [
         "Linha curva ou linha sinuosa; linha, que não é recta, nem formada de rectas.\r\nTrajecto sinuoso.\r\nConstrução em forma de arco; arco.\r\nObjecto de forma arqueada.\r\nCurvatura.",
         "Cada uma das duas peças, mais ou menos trabalhadas, que sustentam a parte principal de certos móveis, como as peças que sustentam a parte superior dos guarda-pratas, a gaveta de certas peniqueiras, etc.",
-        "[object Object]",
         "Tumor pequeno, mais ou menos duro, na curva da perna das cavalgaduras. Cf. M. Pinto, _Comp. de Veter._, I, 422."
       ]
     },
@@ -4650,7 +4562,9 @@
     {
       "word": "deixar",
       "definitions": [
-        "[object Object]"
+        "Retirar-se para o exterior de algo; sair: deixou o apartamento.",
+        "Não fazer mais parte de algo; demitir-se: deixou o trabalho.",
+        "Fazer com que algo seja esquecido; não querer lembrar; esquecer: deixar ideias antigas."
       ]
     },
     {
@@ -5195,7 +5109,6 @@
       "word": "dizer",
       "definitions": [
         "Expor, exprimir, por meio de palavras.\nReferir: _dizer histórias_.\nDesignar.\nEnunciar por escrito.\nRecitar.\nRezar: _dizer uma oração_.\nEstar tentado a crer.\nSignificar: _isso não diz ao caso_.\nLer.\nExprimir por música, tocando ou cantando.\nAfirmar.\nExplicar.\nConfessar.\nBradar.\nPensar.\nIndicar.\nAconselhar: _digo-te que não cases_.\nDenominar.\nNotar.",
-        "[object Object]",
         "Ter como nome; chamar-se: _um patife, que se diz Leal_.\nReferir-se: _diz-se que o Governo cai_.\nDar como pretexto.",
         "Dito, expressão: _no dizer dos sábios_.\nLinguagem falada: _correcto no dizer_.\nManeira de exprimir, estilo."
       ]
@@ -5398,12 +5311,6 @@
         "Interceptar a luz de (um astro).",
         "Obscurecer, ocultar.\nExceder; ofuscar.",
         "Sofrer eclipse, (falando-se de um astro).\nObscurecer-se. Cf. Rui Barb., _Réplica_, 160."
-      ]
-    },
-    {
-      "word": "eclusa",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -5620,12 +5527,6 @@
       "definitions": [
         "Ter emulação de alguém.\nRivalizar.\nTornar-se igual.",
         "Rivalizar com.\nDisputar preferências a.\nPôr-se a par de."
-      ]
-    },
-    {
-      "word": "encaixo",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -5940,18 +5841,6 @@
       "word": "erguida",
       "definitions": [
         "Acto de erguer e amparar as varas novas das videiras.\nEmpa. Cf. Vilarinho, _Viticultura e Vinicultura_."
-      ]
-    },
-    {
-      "word": "erica",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
-      "word": "erica",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -6432,12 +6321,6 @@
       ]
     },
     {
-      "word": "estagno",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "estai",
       "definitions": [
         "Cada um dos cabos grossos, que, fixos na proa, firmam a mastreação.\nDesignação de outros cabos de navio: _estai de galope_; _estai de giba_; _estai de joanete_; _estai de bujarrona_; _estai do velacho_; _estai do traquete_."
@@ -6477,7 +6360,6 @@
         "_Estar na fresca ribeira_, estar regalado.",
         "_Estar pela beiça_, andar perdido de amores.",
         "(seguido de oração integrante), ser de opinião, entender: _estou que não tens razão_.",
-        "[object Object]",
         "O mesmo que _estau_.--É v. auxiliar e tem aceções que só os exemplos designam."
       ]
     },
@@ -6555,7 +6437,7 @@
     {
       "word": "estocar",
       "definitions": [
-        "[object Object]"
+        "Pôr no estoque; formar estoques de mercadorias: estocar gêneros alimentícios."
       ]
     },
     {
@@ -6565,17 +6447,10 @@
       ]
     },
     {
-      "word": "estoica",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "estola",
       "definitions": [
         "Tira de seda, que se alarga nas extremidades e que os sacerdotes põem aos ombros, entre a alva e a casula, ou por cima da sobrepelliz.",
-        "Vestido talar das matronas romanas.",
-        "[object Object]"
+        "Vestido talar das matronas romanas."
       ]
     },
     {
@@ -6765,12 +6640,6 @@
       ]
     },
     {
-      "word": "expiando",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "expiar",
       "definitions": [
         "Purificar ou rehabilitar, por meio de castigo.\nReparar (crimes ou faltas), por penitência ou pena que se cumpre.\nSofrer as consequências de."
@@ -6890,8 +6759,7 @@
     {
       "word": "falir",
       "definitions": [
-        "Faltar.\nMinguar.\nDesfalecer.\nSuspender pagamentos e faltar aos compromissos comerciais.",
-        "[object Object]"
+        "Faltar.\nMinguar.\nDesfalecer.\nSuspender pagamentos e faltar aos compromissos comerciais."
       ]
     },
     {
@@ -6914,8 +6782,7 @@
     {
       "word": "faminto",
       "definitions": [
-        "Que tem fome.\nEsfomeado.",
-        "[object Object]"
+        "Que tem fome.\nEsfomeado."
       ]
     },
     {
@@ -6976,7 +6843,6 @@
       "word": "farto",
       "definitions": [
         "Saciado; cheio; empanturrado.\nNédio; nutrido.\nAbundante: _colheita farta_.",
-        "[object Object]",
         "Enfastiado, aborrecido: _estou farto de te aturar_."
       ]
     },
@@ -6995,8 +6861,7 @@
     {
       "word": "fausto",
       "definitions": [
-        "Venturoso, ditoso.\nPróspero.\nAgradável.",
-        "[object Object]"
+        "Venturoso, ditoso.\nPróspero.\nAgradável."
       ]
     },
     {
@@ -7109,8 +6974,6 @@
     {
       "word": "feito",
       "definitions": [
-        "[object Object]",
-        "[object Object]",
         "_Está feito_, na realidade; mesmo assim: _está feito, não te saíste tão mal, como eu supunha_."
       ]
     },
@@ -8816,12 +8679,6 @@
       ]
     },
     {
-      "word": "guardo",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "gueixa",
       "definitions": [
         "_fem._ de _gueixo_."
@@ -8964,7 +8821,7 @@
     {
       "word": "hindu",
       "definitions": [
-        "[object Object]"
+        "Adepto do hinduísmo; hinduísta."
       ]
     },
     {
@@ -9201,8 +9058,7 @@
     {
       "word": "imposta",
       "definitions": [
-        "Cornija, que serve de base a um arco.",
-        "[object Object]"
+        "Cornija, que serve de base a um arco."
       ]
     },
     {
@@ -9550,8 +9406,7 @@
     {
       "word": "inveja",
       "definitions": [
-        "Tristeza ou desgosto pela prosperidade ou fortuna alheia.\nDesejo excessivo de possuir exclusivamente o bem de outrem.\nObjecto invejado.",
-        "[object Object]"
+        "Tristeza ou desgosto pela prosperidade ou fortuna alheia.\nDesejo excessivo de possuir exclusivamente o bem de outrem.\nObjecto invejado."
       ]
     },
     {
@@ -9659,7 +9514,6 @@
       "word": "jardim",
       "definitions": [
         "Terreno, ordinariamente gradeado ou murado e plantado de vegetais úteis ou recreativos.\r\nCorredor da popa, numa embarcação.",
-        "[object Object]",
         "O mesmo que _laranjal_."
       ]
     },
@@ -10258,8 +10112,7 @@
       "definitions": [
         "Molusco gastrópode.",
         "Pessoa indolente; pessoa insípida.",
-        "Pessoa magra.",
-        "[object Object]"
+        "Pessoa magra."
       ]
     },
     {
@@ -10305,8 +10158,7 @@
     {
       "word": "leviano",
       "definitions": [
-        "Que julga de leve.\nQue reflecte pouco.\nInconsiderado; precipitado: _palavras levianas_.\nImprudente.\nQue denota pouco siso.\nQue não tem seriedade ou que procede repreensivelmente.",
-        "[object Object]"
+        "Que julga de leve.\nQue reflecte pouco.\nInconsiderado; precipitado: _palavras levianas_.\nImprudente.\nQue denota pouco siso.\nQue não tem seriedade ou que procede repreensivelmente."
       ]
     },
     {
@@ -10674,7 +10526,7 @@
     {
       "word": "loteria",
       "definitions": [
-        "[object Object]"
+        "Espécie de jogo de azar, em que os prêmios são distribuídos mediante a correspondência entre os números dos bilhetes e aqueles tirados à sorte."
       ]
     },
     {
@@ -10924,8 +10776,7 @@
         "O mesmo que _velador_.",
         "Tronco, de que se dependuram as balanças de braço, nos mercados e feiras.",
         "Cabide para roupa, formado de uma haste com vários braços.",
-        "Amante.\nHomem, que tem amásia ou concubina.",
-        "[object Object]"
+        "Amante.\nHomem, que tem amásia ou concubina."
       ]
     },
     {
@@ -11111,12 +10962,6 @@
       ]
     },
     {
-      "word": "mastigo",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "mastro",
       "definitions": [
         "Peça comprida de madeira, que sustenta as velas das embarcações.",
@@ -11256,7 +11101,8 @@
     {
       "word": "meiga",
       "definitions": [
-        "[object Object]"
+        "Que é carinhosa, gentil; cujos sentimentos são ternos e afetuosos.",
+        "Suave; que ocasiona sensações agradáveis."
       ]
     },
     {
@@ -11634,7 +11480,7 @@
     {
       "word": "mister",
       "definitions": [
-        "[object Object]"
+        "Aquele que compete e vence um concurso de beleza ou se consagra campeão em qualquer outra competição de mesma natureza."
       ]
     },
     {
@@ -11692,8 +11538,7 @@
         "Gualdrapa; saco de viagem.",
         "Corcova, carcunda.",
         "Saco de coiro ou de lona, em que se dá ração ás cavalgaduras.",
-        "Pequeno saco, em que se mete a cabeça do cabrito, para que não mame.",
-        "[object Object]"
+        "Pequeno saco, em que se mete a cabeça do cabrito, para que não mame."
       ]
     },
     {
@@ -11762,8 +11607,7 @@
       "word": "molde",
       "definitions": [
         "Modelo oco, formado de diversas peças reunidas, para nele se fundirem obras de metal.\nModelo, feito de qualquer substância, pelo qual se talha ou se forma alguma coisa.",
-        "Norma.\nExemplo.\nCaixa da matriz, para a fundição de caracteres tipográficos.",
-        "[object Object]"
+        "Norma.\nExemplo.\nCaixa da matriz, para a fundição de caracteres tipográficos."
       ]
     },
     {
@@ -11854,7 +11698,6 @@
       "definitions": [
         "Grande massa de terra e de rocha, elevada acima do terreno que a rodeia.\nPorção.\nAcervo, ajuntamento: _um monte de sal_.\nGrande volume.\nConjunto dos bens de uma herança.\nQuinhão de uma herança.\nEspécie de jogo de asar, também conhecido por _jogo de parar_.",
         "Montado.\nCasal da herdade.",
-        "[object Object]",
         "Montanha; cordilheira.",
         "Caçada."
       ]
@@ -11918,9 +11761,7 @@
       "definitions": [
         "Acto de morrer.\nFim da vida animal ou vegetal.\nTermo, fim.\nDestruição.",
         "_De morte_, mortalmente, com ódio profundo; rancorosamente.",
-        "[object Object]",
-        "_Morrer de morte macaca_, morrer indecorosamente.",
-        "[object Object]"
+        "_Morrer de morte macaca_, morrer indecorosamente."
       ]
     },
     {
@@ -12018,7 +11859,6 @@
       "word": "muito",
       "definitions": [
         "Que é em grande número ou abundância: _muito dinheiro_.",
-        "[object Object]",
         "Grande quantidade; grande valor."
       ]
     },
@@ -12339,8 +12179,7 @@
       "definitions": [
         "Cobrir de neve.\nEsfriar por meio de gelo ou neve.",
         "Cair neve.",
-        "Branquejar.",
-        "[object Object]"
+        "Branquejar."
       ]
     },
     {
@@ -12425,8 +12264,7 @@
     {
       "word": "nomear",
       "definitions": [
-        "Designar pelo nome, pronunciar o nome de.\nApelidar.\nDespachar para emprego ou instituir.\nEmpregar, despachar.\nQualificar.\nOrganizar, instituir.",
-        "[object Object]"
+        "Designar pelo nome, pronunciar o nome de.\nApelidar.\nDespachar para emprego ou instituir.\nEmpregar, despachar.\nQualificar.\nOrganizar, instituir."
       ]
     },
     {
@@ -12710,7 +12548,6 @@
     {
       "word": "orelha",
       "definitions": [
-        "[object Object]",
         "Apêndice, na base das folhas de algumas plantas.",
         "Corte ou chanfradura, na extremidade de vigas, escoras, etc, para as ligar a outra peça.",
         "Palavra, que faz parte do nome de várias plantas.",
@@ -12808,7 +12645,6 @@
       "word": "padre",
       "definitions": [
         "Sacerdote secular; sacerdote; presbítero.",
-        "[object Object]",
         "_Padres conscriptos_, os antigos senadores romanos.\n_Santos padres_, os antigos e principais escritores eclesiásticos, que defenderam e explicaram a doutrina christan."
       ]
     },
@@ -13246,7 +13082,6 @@
         "O mesmo que _peitoril_. Cf. Rebelo, _Contos e Lendas_, 29.",
         "O mesmo que _úbere_ e _mama_: _criança de peito_; _os peitos encaroçaram-lhe_.\n_Janela de peito_, janela de parapeito ou aberta um pouco acima do pavimento.",
         "_Peito de prova_, o mesmo que _coiraça_. Cf. _Conquista do Pegu_, IX.",
-        "[object Object]",
         "_Do peito_, do fundo do coração; em verdade; deveras.",
         "_Pôr peito_, fazer diligência, empregar esforços. Cf. Filinto, _D. Man._, I, 32.",
         "_De peito feito_, propositadamente."
@@ -13304,8 +13139,7 @@
       "definitions": [
         "Pequena pela.\nBola de metal.\nInstrumento cirúrgico, para fazer compressões.\nAlmofada na funda herniária.\nEspécie de almofada, com que o chapeleiro alisa os chapéus depois de engomados.\nCada um dos pedaços da massa do pão, que se tende separadamente.",
         "Pequena bola de neve.",
-        "Jogo de rapazes.",
-        "[object Object]"
+        "Jogo de rapazes."
       ]
     },
     {
@@ -13366,7 +13200,6 @@
       "word": "pendor",
       "definitions": [
         "Declive.\nObliquidade.\nÍndole, propensão.",
-        "[object Object]",
         "Acto de ancorar."
       ]
     },
@@ -13534,9 +13367,7 @@
       "word": "perto",
       "definitions": [
         "A pequena distância: _o Carlos mora perto_.",
-        "_Perto de_, junto de, próximo de: _gastou perto de quatro contos_.",
-        "[object Object]",
-        "[object Object]"
+        "_Perto de_, junto de, próximo de: _gastou perto de quatro contos_."
       ]
     },
     {
@@ -13737,12 +13568,6 @@
       ]
     },
     {
-      "word": "pilho",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "pilota",
       "definitions": [
         "Estafa.\nPrejuízo.\nDerrota.\nCritica severa.\nArguição de defeitos."
@@ -13812,8 +13637,7 @@
     {
       "word": "pingue",
       "definitions": [
-        "Gordo.\nProdutivo, fértil; abundante.\nQue dá muito lucro; rendoso.",
-        "[object Object]"
+        "Gordo.\nProdutivo, fértil; abundante.\nQue dá muito lucro; rendoso."
       ]
     },
     {
@@ -13842,12 +13666,6 @@
       ]
     },
     {
-      "word": "pinotear",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "pinta",
       "definitions": [
         "Pequena mancha, malha.",
@@ -13867,7 +13685,6 @@
         "Cobrir de tinta; representar por traços ou cores: _pintar uma cruz_.\nColorir.\nDescrever minuciosamente, fielmente: _pintar uma tempestade_.",
         "Burlar; iludir.",
         "_Pintar a manta_, fazer coisas extraordinárias, fazer diabruras.",
-        "[object Object]",
         "Começar a colorir-se: _as uvas já pintam_."
       ]
     },
@@ -13952,8 +13769,7 @@
       "word": "pistola",
       "definitions": [
         "Pequena arma de fogo, do feitio da espingarda, mas que se segura e se dispara com uma só mão.\nPeça de fogo de artifício, que, em forma de canudo, dispara glóbulos luminosos.",
-        "Moeda de oiro espanhola.",
-        "[object Object]"
+        "Moeda de oiro espanhola."
       ]
     },
     {
@@ -14159,7 +13975,6 @@
       "definitions": [
         "Extremidade aguçada: _a ponta do punhal_.\nExtremidade estreita ou delgada.\nExtremidade de um corpo oblongo: _a ponta de uma vara_.",
         "O princípio ou fim de uma série.\nEsquina.\nPequena porção.\nChifre.\nExtremidade: _a ponta da unha_.\nResto de um cigarro ou charuto, depois de fumado.",
-        "[object Object]",
         "O mesmo que [[pontaria:1]]. Cf. Usque, 46 v.^o.",
         "_Andar na ponta_, ter grande nomeada; andar na berra.\nSer muito falado.\n_Trazer de ponta_, ter má vontade a.",
         "_Andar de ponta_, andar desavindo, indisposto.",
@@ -14250,7 +14065,6 @@
         "Entrada.\nLugar, por onde se entra.\nMeio de entrar; acesso.\nSolução, expediente.",
         "_Jogar de porta_, evitar o perder, à primeira cartada de monte.",
         "Esperar à porta da aula, que o professor chame um aluno à lição, e entrar depois.",
-        "[object Object]",
         "_Falar pela porta dianteira_, falar rudemente, e sem rodeios, nem reticências.",
         "Passagem apertada de um rio ou caminho, entre montes.\nDesfiladeiro.\nPortela."
       ]
@@ -14370,7 +14184,6 @@
       "word": "prazo",
       "definitions": [
         "Tempo determinado.\nTempo, durante o qual se deverá realizar alguma coisa: _apresentou-se dentro do prazo legal_.\nO termo de um determinado período de tempo.\nAforamento.\nPrédio emphytêutico: _vender um prazo_.",
-        "[object Object]",
         "Ónus; gravame; embaraço."
       ]
     },
@@ -14417,8 +14230,7 @@
         "Peça de metal, delgada, ponteaguda de um lado e mais grossa do outro, destinada a cravar-se num ponto ou objecto que se quer segurar ou fixar.\nEspécie de grande alfinete, para segurança ou enfeite de chapéus de senhoras ou toucados.\nCravo, brocha.",
         "Casa de penhores.",
         "Porção de massa, com que os estucadores seguram aos fasquiados do tecto o estuque desagregado.",
-        "Espécie de macaco do Amazonas.\n_Carta de prego_, carta cerrada, que o comandante de um navio só abre fora da barra, e na qual se lhe determina o que tem que fazer.",
-        "[object Object]"
+        "Espécie de macaco do Amazonas.\n_Carta de prego_, carta cerrada, que o comandante de um navio só abre fora da barra, e na qual se lhe determina o que tem que fazer."
       ]
     },
     {
@@ -14647,12 +14459,6 @@
       ]
     },
     {
-      "word": "prove",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "proveta",
       "definitions": [
         "Espécie de redoma pequena, para conter substâncias gasosas.\nVaso cilíndrico ou cónico, convenientemente graduado, para medição de líquidos."
@@ -14740,8 +14546,7 @@
       "word": "pulsar",
       "definitions": [
         "Impelir.\nAgitar, abalar.\nTocar.",
-        "Agitar-se.\nPalpitar; latejar: _pulsava-lhe apressado o coração_.",
-        "[object Object]"
+        "Agitar-se.\nPalpitar; latejar: _pulsava-lhe apressado o coração_."
       ]
     },
     {
@@ -14893,8 +14698,7 @@
         "Acrescentamento a um mastro ou verga.",
         "Uma das redes das armações de atum.",
         "Tampo de escotilha, dividido em duas, três ou quatro partes.",
-        "Cada uma das partes em que se divide o tampo da escotilha.",
-        "[object Object]"
+        "Cada uma das partes em que se divide o tampo da escotilha."
       ]
     },
     {
@@ -15008,7 +14812,6 @@
     {
       "word": "queira",
       "definitions": [
-        "[object Object]",
         "O mesmo que _matilha_."
       ]
     },
@@ -15130,7 +14933,7 @@
     {
       "word": "quisto",
       "definitions": [
-        "[object Object]"
+        "Tumefacção anormal com conteúdo líquido; ciste."
       ]
     },
     {
@@ -15337,12 +15140,6 @@
       ]
     },
     {
-      "word": "rebato",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "recado",
       "definitions": [
         "Participação ou aviso, geralmente verbal.\nMensagem.",
@@ -15422,7 +15219,7 @@
     {
       "word": "refino",
       "definitions": [
-        "[object Object]"
+        "Variação de refinação."
       ]
     },
     {
@@ -16045,12 +15842,6 @@
       ]
     },
     {
-      "word": "rumes",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "rumina",
       "definitions": [
         "Género de insectos coleópteros."
@@ -16506,12 +16297,6 @@
       ]
     },
     {
-      "word": "sendal",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "senha",
       "definitions": [
         "Sinal.\nGesto, combinado entre duas ou mais pessoas.\nRecibo.\nPapel ou bilhete, que autoriza a admissão ou readmissão numa assembleia ou num espectáculo.",
@@ -16522,8 +16307,7 @@
       "word": "senhor",
       "definitions": [
         "Aquele que tinha autoridade feudal sobre certas pessoas ou propriedades.\nPossuidor, dominador.\nDono.\nTítulo, que por deferência se dá a certos homens, distintos pela sua posição ou dignidade.\nIndivíduo distinto.\nTítulo nobiliário.\nTratamento cerimonioso.\nO supremo dominador, Deus.",
-        "Dono da casa: _ó Joana, chama o senhor para a mesa_.",
-        "[object Object]"
+        "Dono da casa: _ó Joana, chama o senhor para a mesa_."
       ]
     },
     {
@@ -16773,8 +16557,7 @@
       "word": "singular",
       "definitions": [
         "Individual.\nQue pertence a um só.\nÚnico.\nExtraordinário.\nDistinto.\nPrivativo, especial.\nExcêntrico.",
-        "Diz-se do número, que, nos nomes e nos verbos, se refere a uma só pessoa.",
-        "[object Object]"
+        "Diz-se do número, que, nos nomes e nos verbos, se refere a uma só pessoa."
       ]
     },
     {
@@ -16919,7 +16702,9 @@
     {
       "word": "sonda",
       "definitions": [
-        "[object Object]"
+        "Aparelho (prumo ou objeto análogo) para determinar a profundidade da água e a natureza do fundo do mar ou de um rio.",
+        "Aparelho empregado na perfuração de poços petrolíferos, artesianos etc.",
+        "Cirurgia. Instrumento com que se fazem sondagens numa cavidade do corpo, se extraem líquidos, se evacua uma ferida."
       ]
     },
     {
@@ -17031,8 +16816,7 @@
         "Torno de madeira.",
         "Cavilha de pau, que retesa as brochas do mangual.\nInstrumento perfurante, em forma de lima.",
         "Pau aguçado numa das pontos, para se picarem bestas.",
-        "Pessoa avara, mesquinha, somítica, miserável.",
-        "[object Object]"
+        "Pessoa avara, mesquinha, somítica, miserável."
       ]
     },
     {
@@ -17064,7 +16848,6 @@
       "word": "subir",
       "definitions": [
         "Ir para cima.\nTrepar.\nElevar-se.\nChegar a certa altura.\nAtingir.\nAumentar.",
-        "[object Object]",
         "Engrandecer.\nElevar a posição social de."
       ]
     },
@@ -17156,8 +16939,7 @@
       "word": "sujeito",
       "definitions": [
         "Escravizado.\nObediente.\nAdstrito.\nQue não tem vontade própria.\nDisposto naturalmente, habituado.\nExposto, arriscado: _sujeito a perder a vida_.",
-        "Pessoa ou coisa, que produz ou determina a acção expressa por um verbo.\nIndivíduo, de quem se omite o nome; homem: _vai ali um sujeito_.\nSúbdito.",
-        "[object Object]"
+        "Pessoa ou coisa, que produz ou determina a acção expressa por um verbo.\nIndivíduo, de quem se omite o nome; homem: _vai ali um sujeito_.\nSúbdito."
       ]
     },
     {
@@ -17282,8 +17064,7 @@
     {
       "word": "talco",
       "definitions": [
-        "Silicato de magnésia, esverdeado, esbranquiçado ou pardo, susceptível de se dividir em lâminas, mais ou menos transparentes.",
-        "[object Object]"
+        "Silicato de magnésia, esverdeado, esbranquiçado ou pardo, susceptível de se dividir em lâminas, mais ou menos transparentes."
       ]
     },
     {
@@ -17440,8 +17221,7 @@
     {
       "word": "teimar",
       "definitions": [
-        "Obstinar-se; insistir.\nSarrazinar.",
-        "[object Object]"
+        "Obstinar-se; insistir.\nSarrazinar."
       ]
     },
     {
@@ -17617,8 +17397,7 @@
       "definitions": [
         "Animal feroz, da fam. dos felinos.",
         "Homem sanguinário, cruel.",
-        "Insecto, que ataca as macieiras e pereiras, devorando as folhas, até deixar só as fibras e lenhos. Cf _Bibl. da Gente do Campo_, 382.",
-        "[object Object]"
+        "Insecto, que ataca as macieiras e pereiras, devorando as folhas, até deixar só as fibras e lenhos. Cf _Bibl. da Gente do Campo_, 382."
       ]
     },
     {
@@ -17670,7 +17449,6 @@
         "Pôr a mão em.\nTer contacto com.\nRoçar.\nBater.\nTanger, fazer soar: _tocar viola_.\nAtingir com um golpe, na esgrima.\nDizer respeito a.\nComover, sensibilizar: _tocaram-me aqueles lamentos_.\nInfluir em; excitar.\nMencionar.\nAproximar-se de.\nRetocar; aprimorar.",
         "Beber.",
         "Pertencer.\nDizer respeito.\nEstar em contacto ou próximo.\nFazer soar um instrumento: _o pequeno toca bem_.",
-        "[object Object]",
         "_Tocar rijamente_, andar a toda a pressa. Cf. Pant. de Aveiro, _Itiner._, 254, (2.^a ed.).",
         "Ter contacto.\nPôr-se em contacto.\nImpressionar-se, comover-se.\nMelindrar-se.\nComeçar a apodrecer, (falando-se de fruta).",
         "Embriagar-se um pouco.\n(Cp. it. _toccare_)"
@@ -17824,12 +17602,6 @@
       ]
     },
     {
-      "word": "trace",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "trago",
       "definitions": [
         "Sorvo, gole.\nO que se bebe de uma vez.",
@@ -17843,22 +17615,9 @@
       ]
     },
     {
-      "word": "trajo",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
-      "word": "trance",
-      "definitions": [
-        "[object Object]"
-      ]
-    },
-    {
       "word": "tranco",
       "definitions": [
-        "Salto largo das cavalgaduras.\nSolavanco.",
-        "[object Object]"
+        "Salto largo das cavalgaduras.\nSolavanco."
       ]
     },
     {
@@ -17871,8 +17630,7 @@
     {
       "word": "transido",
       "definitions": [
-        "Impregnado.\nRepassado: _transido de frio_.",
-        "[object Object]"
+        "Impregnado.\nRepassado: _transido de frio_."
       ]
     },
     {
@@ -18113,8 +17871,7 @@
       "word": "tromba",
       "definitions": [
         "Órgão do olfacto e aparelho de apreensão, alongado, flexível, colocado na parte superior da boca do elefante e do tapir.\nSugadoiro de insecto.\nFocinho.\nMeteoro, que consiste numa coluna do água, agitada por turbilhões de vento, e girando rapidamente em volta de si própria.",
-        "O mesmo que [[cara:1]].",
-        "[object Object]"
+        "O mesmo que [[cara:1]]."
       ]
     },
     {
@@ -18612,8 +18369,7 @@
     {
       "word": "venda",
       "definitions": [
-        "Acto ou efeito de vender.\nLoja em que se vende; taberna.",
-        "[object Object]"
+        "Acto ou efeito de vender.\nLoja em que se vende; taberna."
       ]
     },
     {
@@ -18653,7 +18409,6 @@
         "Corrente de ar, mais ou menos rápida, resultante das mudanças no peso específico da atmosfera.\nAr.\nAtmosfera.\nEspécie de bolha, que aparece nas obras fundidas e proveniente de uma porção de ar que entrou no metal ao solidificar-se.",
         "Influência.\nFlatulência; ventosidade.\nFaro.\nCoisa rápida.\nVaidade, coisa van.\n_Pé de vento_, redemoinho, furacão.",
         "_De vento em popa_, prosperamente.",
-        "[object Object]",
         "_Gado de vento_, animais sem dono ou cujo dono é desconhecido.",
         "_Águas do vento_, águas pluviais, não apropriadas.",
         "_Com vento fresco_, sem cerimónia; sem dizer nada: _foi-lhe aos lombos com vento fresco_.",
@@ -18730,8 +18485,7 @@
     {
       "word": "vergonha",
       "definitions": [
-        "Pudor; pejo.\nReceio da deshonra.\nDesgosto, produzido pela ideia da deshonra.\nDeshonra.\nRubor que o pejo produz nas faces.\nTimidez, acanhamento.",
-        "[object Object]"
+        "Pudor; pejo.\nReceio da deshonra.\nDesgosto, produzido pela ideia da deshonra.\nDeshonra.\nRubor que o pejo produz nas faces.\nTimidez, acanhamento."
       ]
     },
     {
@@ -18741,12 +18495,6 @@
         "Cabedal de polimento: _botas de verniz_.",
         "Delicadeza; elegância.",
         "Embriaguez."
-      ]
-    },
-    {
-      "word": "versa",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {
@@ -18792,7 +18540,6 @@
       "word": "vestir",
       "definitions": [
         "Cobrir com veste.\nPôr sobre si (qualquer peça de vestuário): _vestir um casaco_.\nDar vestuário a: _vestir os pobres_.",
-        "[object Object]",
         "Pôr veste, trajar."
       ]
     },
@@ -18998,7 +18745,6 @@
         "Mulher ou menina, isenta de relações carnais com homem.\nDonzela.",
         "A mãe de Cristo.\nRetrato da mãe de Cristo.",
         "Rapariga.",
-        "[object Object]",
         "Puro; casto.\nIntacto.\nInocente.\nIsento.\nIngénuo.\nSincero.\nQue ainda não serviu: _espingarda virgem_.",
         "Diz-se da primeira cortiça, tirada a um sobreiro. Cf. _Port. au point de vue agr._, 649.",
         "Grossas traves de madeira que, enterradas no chão, sustentam os dormentes nos engenhos de açúcar."
@@ -19394,7 +19140,8 @@
     {
       "word": "briguento",
       "definitions": [
-        "[object Object]"
+        "Que possui uma grade tendência para estar envolvido em brigas; que age de maneira impulsiva; rixoso.",
+        "Aquele que se envolve em muitas brigas; brigão."
       ]
     },
     {
@@ -19540,8 +19287,7 @@
       "word": "contemplar",
       "definitions": [
         "Olhar com atenção: _contemplar os astros_.\nConsiderar com admiração ou com amor.\nMeditar.\nImaginar.\nTratar com benevolência.\nAtender: _contemplar um pedido_.\nRemunerar.",
-        "Meditar profundamente.",
-        "[object Object]"
+        "Meditar profundamente."
       ]
     },
     {
@@ -20101,7 +19847,6 @@
     {
       "word": "mercantil",
       "definitions": [
-        "[object Object]",
         "Interesseiro.\nAmbicioso."
       ]
     },
@@ -20109,8 +19854,7 @@
       "word": "mesquinho",
       "definitions": [
         "Privado do que é necessário.\nPobre.\nInsignificante.\nInfeliz.\nEstéril.\nAvarento; miserável.",
-        "Que não consente o freio, (falando-se do cavalo).",
-        "[object Object]"
+        "Que não consente o freio, (falando-se do cavalo)."
       ]
     },
     {
@@ -20142,7 +19886,6 @@
     {
       "word": "ocidental",
       "definitions": [
-        "[object Object]",
         "Povos, que habitam o Ocidente do antigo continente."
       ]
     },
@@ -20447,12 +20190,6 @@
       "word": "submergido",
       "definitions": [
         "Que se afundou.\nQue está debaixo de água ou coberto de água."
-      ]
-    },
-    {
-      "word": "superando",
-      "definitions": [
-        "[object Object]"
       ]
     },
     {

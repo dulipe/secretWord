@@ -24,4 +24,5 @@ export type SavedGame = {
   guesses: Cell[][];
   keyStatuses: Record<string, CellStatus>;
   visibleKeys: string[];
+  modal: ModalState;
 };

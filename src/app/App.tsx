@@ -1,7 +1,8 @@
 import Navbar from "@/components/navbar/Navbar";
-import GameMenu  from "@/components/gameMenu/GameMenu";
+import GameMenu from "@/components/gameMenu/GameMenu";
 import WordGrid from "@/components/wordGrid/WordGrid";
 import Keyboard from "@/components/keyboard/Keyboard";
+import WordResult from "@/components/wordResult/WordResult";
 import Modal from "@/components/modal/Modal";
 import Instructions from "@/components/instructions/Instructions";
 import Footer from "@/components/footer/Footer";
@@ -23,7 +24,7 @@ function App(): JSX.Element {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-  
+
       <div className="flex flex-col lg:flex-row flex-1 bg-gray-300">
         <main className="flex flex-col items-center w-full lg:w-1/2">
           <GameMenu
@@ -32,20 +33,25 @@ function App(): JSX.Element {
             statusWords={game.statusWords}
             onSelect={game.handleSelect}
           />
-  
+
           <WordGrid
             guesses={game.guesses}
             status={game.statusWords[game.selected]}
           />
-  
-          {!isGameFinished && (
+
+          {!isGameFinished ? (
             <Keyboard
               onKeyPress={game.handleKeyPress}
               keyStatuses={game.keyStatuses}
               visibleKeys={game.visibleKeys}
             />
+          ) : (
+            <WordResult
+              word={game.modal.word}
+              definitions={game.modal.definitions}
+            />
           )}
-  
+
           <Modal
             isOpen={game.isModalOpen}
             title={game.modal.title}
@@ -54,7 +60,7 @@ function App(): JSX.Element {
             onClose={game.handleClose}
           />
         </main>
-  
+
         <aside className="w-full lg:w-1/2 px-8 py-10 flex justify-center pointer-events-none">
           <Instructions />
         </aside>

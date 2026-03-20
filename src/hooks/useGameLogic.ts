@@ -37,17 +37,19 @@ export function useGameLogic(
       setGuesses(savedGames[selected].guesses);
       setKeyStatuses(savedGames[selected].keyStatuses);
       setVisibleKeys(savedGames[selected].visibleKeys);
+      setModal(savedGames[selected].modal);
     } else {
       setGuesses(initializeGuesses(selected));
       setKeyStatuses({});
       setVisibleKeys(ALPHABET);
+      setModal({ title: "", word: "", definitions: [] });
     }
   }, [selected, savedGames]);
 
-  const saveCurrentGame = () => {
+  const saveCurrentGame = (currentModal: ModalState) => {
     setSavedGames((prev) => ({
       ...prev,
-      [selected]: { guesses, keyStatuses, visibleKeys },
+      [selected]: { guesses, keyStatuses, visibleKeys, modal: currentModal },
     }));
   };
 
@@ -101,7 +103,7 @@ export function useGameLogic(
           [selected]: result.status === "win" ? "solved" : "unsolved",
         }));
 
-        saveCurrentGame();
+        saveCurrentGame(result.modal);
       } else {
         const keysToShow = getKeysToShow(row);
 
@@ -113,7 +115,7 @@ export function useGameLogic(
   };
 
   const handleSelect = (value: number) => {
-    saveCurrentGame();
+    saveCurrentGame(modal);
     setSelected(value);
   };
 
