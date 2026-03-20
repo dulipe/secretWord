@@ -6,20 +6,36 @@ import WordResult from "@/components/wordResult/WordResult";
 import Modal from "@/components/modal/Modal";
 import Instructions from "@/components/instructions/Instructions";
 import Footer from "@/components/footer/Footer";
+import LanguageSelector from "@/components/languageSelector/LanguageSelector";
 
 import { useWords } from "@/hooks/useWords";
 import { useGameLogic } from "@/hooks/useGameLogic";
 
 import { GAME_OPTIONS } from "@/domain/gameConfig";
-import { JSX } from "react";
+import { JSX, useState } from "react";
+
+type Language = "pt" | "en";
 
 function App(): JSX.Element {
+
+  const [language, setLanguage] = useState<Language | null>(null);
+
   const { words } = useWords(GAME_OPTIONS);
   const game = useGameLogic(words, GAME_OPTIONS);
 
   const isGameFinished = ["solved", "unsolved"].includes(
     game.statusWords[game.selected]
   );
+
+  if (!language) {
+    return (
+      <div className="flex flex-col min-h-screen bg-gray-300">
+        <Navbar />
+        <LanguageSelector onSelect={setLanguage} />
+        <Footer />
+      </div>
+    )
+  }
 
   return (
     <div className="flex flex-col min-h-screen">
