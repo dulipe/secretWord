@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 
 import {
   initializeGuesses,
@@ -28,6 +29,8 @@ export function useGameLogic(
     word: "",
     definitions: [],
   });
+
+  const { language } = useLanguage();
 
   const secretWord = words[selected]?.word;
   const definitions = words[selected]?.definitions;
@@ -92,6 +95,7 @@ export function useGameLogic(
         secretWord,
         guesses: newGuesses,
         definitions,
+        language
       });
 
       if (result.status !== "continue") {

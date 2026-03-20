@@ -6,21 +6,20 @@ import WordResult from "@/components/wordResult/WordResult";
 import Modal from "@/components/modal/Modal";
 import Instructions from "@/components/instructions/Instructions";
 import Footer from "@/components/footer/Footer";
-import LanguageSelector from "@/components/languageSelector/LanguageSelector";
 
 import { useWords } from "@/hooks/useWords";
 import { useGameLogic } from "@/hooks/useGameLogic";
 
 import { GAME_OPTIONS } from "@/domain/gameConfig";
-import { JSX, useState } from "react";
+import { JSX} from "react";
 
 import { LanguageContext } from "@/context/LanguageContext";
 
-type Language = "pt" | "en";
+type AppProps = {
+  language: "pt" | "en";
+};
 
-function App(): JSX.Element {
-
-  const [language, setLanguage] = useState<Language | null>(null);
+function App({ language }: AppProps): JSX.Element {
 
   const { words } = useWords(GAME_OPTIONS, language ?? "pt");
   const game = useGameLogic(words, GAME_OPTIONS);
@@ -28,16 +27,6 @@ function App(): JSX.Element {
   const isGameFinished = ["solved", "unsolved"].includes(
     game.statusWords[game.selected]
   );
-
-  if (!language) {
-    return (
-      <div className="flex flex-col min-h-screen bg-gray-300">
-        <Navbar />
-        <LanguageSelector onSelect={setLanguage} />
-        <Footer />
-      </div>
-    )
-  }
 
   return (
     <LanguageContext.Provider value={{ language }}>

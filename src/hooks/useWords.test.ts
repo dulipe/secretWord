@@ -3,7 +3,7 @@ import { useWords } from "./useWords";
 import { vi } from "vitest";
 import { GameOption } from "@/domain/gameConfig";
 
-vi.mock("@/data/words.json", () => ({
+vi.mock("@/data/words-en.json", () => ({
   default: [
     { word: "APPLE", definitions: ["A fruit"] },
     { word: "BANANA", definitions: ["Yellow fruit"] },
@@ -11,17 +11,17 @@ vi.mock("@/data/words.json", () => ({
 }));
 
 const options: GameOption[] = [
-  { label: "5 Letters", value: 5 },
-  { label: "6 Letters", value: 6 },
+  { value: 5 },
+  { value: 6 },
 ];
 
 describe("useWords hook", () => {
   it("correctly filters words by size", async () => {
-    const { result } = renderHook(() => useWords(options));
+    const { result } = renderHook(() => useWords(options, "en"));
 
     await waitFor(() => {
       expect(result.current.words).toBeDefined();
-      });
+    });
 
     expect(result.current.words[5].word).toBe("APPLE");
     expect(result.current.words[6].word).toBe("BANANA");

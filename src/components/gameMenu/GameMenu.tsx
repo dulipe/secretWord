@@ -40,7 +40,7 @@ const GameMenu = ({ onSelect, selected, statusWords, options }: GameMenuProps) =
                   }
                 `}
               >
-                <span className="flex items-center gap-1">
+                <span className="flex items-center gap-1 select-none">
                   <span>{label}</span>
 
                   <span className="text-xs w-4 text-center inline-block">

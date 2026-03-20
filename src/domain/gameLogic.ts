@@ -53,7 +53,7 @@ export function buildModalMessage({
 }: BuildModalMessageParams): ModalState {
   const title = isWin
     ? language === "pt" ? "Acertou! ✔️" : "You got it! ✔️"
-    : language === "pt" ? "Errou! ❌" : "Game over! ❌";
+    : language === "pt" ? "Errou! ❌" : "Better luck next time! ❌";
 
   return {
     title,
