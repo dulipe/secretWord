@@ -32,7 +32,7 @@ const Modal = ({ isOpen, title, word, definitions, onClose }: ModalProps) => {
                 <ul className="text-sm text-black list-disc ml-4 space-y-1 max-h-[160px]  w-full">
                   {definitions.flatMap((def, index) =>
                     def.split("\n").map((part, partIndex) => (
-                      <li key={`${index}-${partIndex}`}>
+                      <li className="break-words" key={`${index}-${partIndex}`}>
                         {part.replaceAll("_", "")}
                       </li>
                     ))

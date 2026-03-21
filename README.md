@@ -1,12 +1,48 @@
-# React + Vite
+# Secret Word
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### About
 
-Currently, two official plugins are available:
+A word guessing game inspired by [Palavras Secretas from Geniol](https://www.geniol.com.br/palavras/palavras-secretas/). The goal is to discover the secret word by choosing letters one at a time and interpreting the color hints.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### How to play
 
-## Expanding the ESLint configuration
+- Choose the word length (5 to 10 letters) from the top menu
+- Click the letters on the virtual keyboard to guess the word
+- You have up to **7 attempts**
+- Colors indicate each letter's status:
+  - 🟢 **Green** — letter is in the correct position
+  - 🟡 **Yellow** — letter is present but in the wrong position
+  - ⬜ **White** — letter is not in the word
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tech stack
+
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vitest](https://vitest.dev/) + [Testing Library](https://testing-library.com/)
+
+### Running locally
+
+```bash
+# Clone the repository
+git clone https://github.com/dulipe/secretWord.git
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+### Available scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Starts the development server |
+| `npm run build` | Generates the production build |
+| `npm run test` | Runs the tests |
+| `npx tsc --noEmit` | Type checks the project |
+
+### Credits
+
+Inspired by [Palavras Secretas](https://www.geniol.com.br/palavras/palavras-secretas/) from Geniol.
