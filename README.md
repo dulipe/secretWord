@@ -1,6 +1,6 @@
 # Secret Word
 
-![Secret Word gameplay](./public/screenshot.png)
+![Secret Word gameplay](https://github.com/dulipe/secretWord/blob/main/public/screenshot.PNG)
 
 > A word guessing game built with React and TypeScript.  
 > 🔗 **[Live demo](https://secretword.filipe-santos.dev)**
@@ -11,7 +11,7 @@
 
 I built Secret Word to practice React architecture and TypeScript while working on something I actually enjoy. It pushed me to think about state management, custom hooks, and how to structure a project that could scale."
 
-Secret Word is a word guessing game inspired by [Palavras Secretas from Geniol](https://www.geniol.com.br/palavras/palavras-secretas/). The goal is to discover the secret word by selecting letters one at a time and reading the color-coded feedback.
+Secret Word is a word guessing game inspired by [Secret Words from Geniol](https://www.geniol.com.br/palavras/palavras-secretas/). The goal is to discover the secret word by selecting letters one at a time and reading the color-coded feedback.
 
 The project was built as part of my journey into full stack development, with a focus on clean architecture, TypeScript, and test coverage.
 
@@ -82,7 +82,7 @@ src/
 
 ## Credits
 
-Inspired by [Palavras Secretas](https://www.geniol.com.br/palavras/palavras-secretas/) from Geniol.
+Inspired by [Secret Words](https://www.geniol.com.br/palavras/palavras-secretas/) from Geniol.
 
 ---
 
