@@ -27,10 +27,10 @@ const GameMenu = ({ onSelect, selected, statusWords, options }: GameMenuProps) =
             status === "solved" ? "✔️" : status === "unsolved" ? "❌" : "";
 
           return (
-            <li key={value} className="flex-none min-w-[100px]">
+            <li key={value} className="flex-none min-w-[80px] sm:min-w-[100px]">
               <button
                 onClick={() => onSelect(value)}
-                className={`w-full flex justify-center items-center whitespace-nowrap px-4 py-2 text-base font-semibold rounded-md border-2 cursor-pointer transition-all duration-200
+                className={`w-full flex justify-center items-center whitespace-nowrap px-3 sm:px-4 py-2 text-sm sm:text-base font-semibold rounded-md border-2 cursor-pointer transition-all duration-200
                   
                   ${isFinished
                     ? "bg-gray-200 text-gray-500 border-transparent cursor-not-allowed"
