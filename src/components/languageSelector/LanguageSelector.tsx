@@ -6,9 +6,10 @@ type LanguageSelectorProps = {
 
 const LanguageSelector = ({ onSelect }: LanguageSelectorProps) => {
   return (
-    <div className="flex flex-col items-center justify-center mt-60 gap-8">
-
-      <h1 className="text-4xl font-bold text-gray-800 tracking-wide">Escolha o idioma / Choose a language</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen px-6 gap-8 bg-gray-100">
+      <h1 className="text-2xl sm:text-4xl font-bold text-gray-800 tracking-wide text-center">
+        Escolha o idioma / Choose a language
+      </h1>
 
       <div className="flex gap-6">
         <button
