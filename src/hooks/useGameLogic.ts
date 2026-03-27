@@ -120,6 +120,7 @@ export function useGameLogic(
 
   const handleSelect = (value: number) => {
     saveCurrentGame(modal);
+    setKeyStatuses({});
     setSelected(value);
   };
 
