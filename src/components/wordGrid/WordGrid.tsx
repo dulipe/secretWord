@@ -9,7 +9,7 @@ const WordGrid = ({ guesses, status }: WordGridProps) => {
   const isFinished = status === "solved" || status === "unsolved";
 
   return (
-    <div className="flex flex-col items-center gap-2 mt-10">
+    <div className="flex flex-col items-center gap-2 ">
       {guesses.map((row, rowIndex) => {
         return (
           <div key={rowIndex} className="flex gap-2">

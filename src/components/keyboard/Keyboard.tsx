@@ -29,7 +29,7 @@ const Keyboard = ({ onKeyPress, keyStatuses, visibleKeys = [] }: KeyboardProps) 
   const getPlaceholderStyle = (): string => `${keySize} invisible`;
 
   return (
-    <div className="flex flex-col items-center gap-2 mt-20 mb-20 px-4 w-full max-w-[600px] mx-auto">
+    <div className="flex flex-col items-center gap-2 mt-10 mb-10 px-4 w-full max-w-[600px] mx-auto">
       {KEYBOARD_LAYOUT.map((row, rowIndex) => (
         <div
           key={rowIndex}
